@@ -1,0 +1,459 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.banner{
+    width:100%;
+    height: 100vh;
+    background-image: linear-gradient(90deg,rgba(0,42,37,.5),rgba(0,42,37,.5)),url(countlessmiles/assets/Rectangle.png);
+    background-position: 50%;    
+    background-size: cover;
+}
+
+
+.banner_button {
+    border-radius: 2px;
+    border: 1px solid white;
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: .02em;
+    line-height: 16px;
+    margin-top: 20px;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a.banner_button_div{
+    background:  #039785;
+    border:1px solid white;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 12%);
+    border-radius: 2px;
+    width: 220px;
+    height: 58px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    letter-spacing: .02em;
+    line-height: 15px;
+    margin-top: 20px;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.navbar{
+    width:85%;
+    padding:10px;
+    margin: auto;
+    padding: 35px 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar li{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.navbar a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 6px;
+    font-weight:bold;
+}
+
+
+.navbar a.current{
+    background: whitesmoke;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.navbar ul{
+    text-align: right;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+
+.Love{
+    color: #fff;
+    font-family: arial;
+    margin-top: 70px;
+    padding: 0 40px;
+    font-size: 15px;
+    line-height: 35px;
+    
+}
+
+.experience{
+    background-image: url(countlessmiles/assets/contact_map.png); 
+    background-position: 50%;
+    background-size: cover;
+    display: flex;
+    margin-top: 5px;
+    padding: 20px;
+    justify-content: space-between;
+}
+.card{
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 20px rgb(0 0 0 / 6%);
+    padding: 15px;
+    width: 250px;
+}
+.product-image{
+    background-blend-mode: lighten;
+    background-position: 20%;
+    background-size: cover;
+    border-radius: 4px;
+    box-shadow: 0 4px 26px hsl(0deg 0% 87% / 25%);
+    height: 190px;
+} 
+
+.card_title{
+    font-size: 15px;
+    color: rgb(6, 85, 59);
+}
+
+.card_subtitle{
+    font-size:12px;
+letter-spacing: -.5px;}
+
+.wavy {
+    background-image: url(countlessmiles/assets/wavy.svg);
+    background-position: 50%;
+    background-size: cover;
+    height: 99.2px;
+    width: 100%;
+}
+
+.travel{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.product-name{
+    color: #002a25;
+    font-family: Times New Roman;
+    font-size: 25px;
+    letter-spacing: -.4px;
+    letter-spacing: .2rem;
+    line-height: 41px;
+    
+}
+
+.card_subtitle{
+    color: #666;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.card_seemore{
+    color: #002a25;
+    font-size: 14px;
+    padding-left: 1030px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 2px;
+    color: black;
+    text-align: right;
+}
+
+.user{
+    display: flex;
+    margin-left: 5%;
+    overflow: hidden;
+    justify-content: space-between;
+    padding: 12px;
+    
+    
+}
+
+
+.travel_experience{
+    display: flex;
+    justify-content:space-around;
+    background-image: url(countlessmiles/assets/contact_map.png);
+    background-position: 50%;
+    background-size: cover;
+    display: flex;
+    margin: 0px 0px 20px 60px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+img{
+    box-sizing: inherit;
+    margin: auto;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.review_btn{
+    align-items: center;
+    border: 1px solid #039785;
+    border-radius: 3px;
+    justify-content: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    font-size: 7px;
+    height: 22px;
+    width: 100px;
+    text-transform: uppercase;
+}
+
+.user_btn{
+    background: #bdece7;
+    justify-content:safe;
+    padding: 14px;
+    height: 40px;
+    box-sizing: inherit;
+    display: flex;
+}
+
+.review{
+    height:80px;
+    background: rgb(243, 237, 237);
+    margin: 10px 10px 10px 10px;
+
+}
+
+.user_name{
+    color: #002a25;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: -.4px;
+    line-height: normal;
+    
+
+}
+
+.review_footer{
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content:stretch;
+}
+
+.price{
+    color: #002a25;
+    justify-content: flex-end;
+}
+
+.review_footer_left{
+    align-items: center;
+    margin-top: 15px;
+    border: 1px solid #039785;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    height: 20px;
+    justify-content: center;
+    width: 21px;
+}
+
+#arrow_right{
+    padding-left:10px;
+}
+
+.review_footer_right{
+    align-items: center;
+    margin-top: 15px;
+    border: 1px solid #039785;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    height: 20px;
+    justify-content: center;
+    width: 21px;
+    transform: rotate(-180deg);
+}
+
+.aboutus{
+    background-image: url(countlessmiles/assets/contact_map.png);
+    background-position: 50%;
+    background-size: cover;
+    height: 610.53px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.about_btn{
+    background: #039785;
+    border-radius: 2px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 12%);
+    color: #fff;
+    font-size: 16px;
+    height: 58px;
+    letter-spacing: -.004em;
+    line-height: normal;
+    text-decoration: none;
+    width: 220px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.story{
+    color: #002a25;
+    font-size: 30px;
+    color: #666;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 25px;
+}
+
+.heading{
+    margin-bottom: 10px;
+    color: #002a25;
+    font-size: 30px;
+    letter-spacing: .2rem;
+    line-height: 41px
+}
+
+.aboutus_video{
+    height: 80%;
+    margin: 20px;
+    border: 10px solid white;
+    object-fit: cover;
+    
+}
+
+.about_info{
+    padding: 50px;
+    margin:50px;
+}
+
+.aboutus_video_control{
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    background:rgba(226, 226, 235, 0.6);
+    height: 140px;
+    left: 50%;
+    bottom: 35%;
+    position: relative;
+    transform: translate(-50%,-50%);
+    width: 140px;
+}
+
+.planning{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: #f2f8f7;
+    flex-direction: column;
+    height: 360px;
+    top: 2355px;
+}
+
+.planning_but{
+    
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 12%);
+    color: #039785;
+    text-align: center;
+    padding: 10px 10px 10px;
+    margin: 10px 10px 10px;
+    font-size: 16px;
+    height: 48px;
+    letter-spacing: -.004em;
+    line-height: normal;
+    text-decoration: none;
+    width: 220px;
+}
+
+
+.aboutus_video_controller{
+    background: #d1c6c6;
+    height: 80px;
+    width: 80px;
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.empty{
+    border-radius: 2px;
+    background: white;
+    border: 1px solid white;
+    display: inline-block;
+    font-size: 12px;
+    height:5px;
+    width: 80px;
+}
+
+.flex_container {
+    background-color: white;
+    /* margin: 10px; */
+    padding: 20px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 90%;
+} 
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    padding-top: 30px;
+}
+
+#box_braid{
+    background: #f2f8f7;
+    margin-top: -2px;
+    padding-bottom: 50px;
+}
+
+/* .arrow{
+    padding:10px;
+    
+} */
+
+#banner_button {
+    border-radius: 2px;
+    border: 1px solid white;
+    display: flex;
+    font-size: 10px;
+    letter-spacing: .02em;
+    line-height: 12px;
+    margin-top: 15px;
+    padding: 0px 10px;
+    padding-top: 5px;
+    color:#666;
+    text-decoration: none;
+    align-items: center;
+}
+
+.social_logo{
+    margin-right: 21px;
+}
+
+.godabeg{
+    padding: 50px;
+}
+
