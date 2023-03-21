@@ -38,3 +38,16 @@
     padding:30px;
     margin:20px;
 }
+
+.suggest_box{
+    border:2px solid black;
+    height:125px; 
+    width: 250px;
+
+
+}
+
+.container{
+    padding: 20px;
+    width:30%;
+}
